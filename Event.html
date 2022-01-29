@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Onyx</title>
+	<link rel="stylesheet" type="text/css" href="./css/Event.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css">
+  <link rel="stylesheet" href="template7.css">
+</head>
+<body>
+	<!-- Navbar start -->
+	<div class="header">
+		<nav class="navbar">
+	      <input type="checkbox" id="check">
+	      <label for="check" class="checkbtn">
+	        <i class="fas fa-bars"></i>
+	      </label>
+	      <ul>
+	          <li><a href="index.php">HOME</a></li>
+	          <li><a href="blog_one.html">BLOG</a></li>
+	          <li><a href="login.php">LOGIN</a></li>
+	      </ul>
+	      <div class="post-ad-btn">
+	        <button><a href='posting_ad.html' class="post-ad">POSTING AD</a></button>
+	      </div>
+	    </nav>
+	</div>
+	<!--  Navbar End -->
+
+	<!-- Home start -->
+	<div class="cover-image">
+		<h1>Find What You Want With <span class="green">ONYX</span></h1>
+		<p>Online Platfrom where you can buy what you want an sell what you have</p>
+		<div class="search">
+			<div class="input-group">
+			  	<input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="What are you looking for?">
+			  	<div class="input-group-append">
+			    	<button class="btn btn-outline-secondary" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Catagory &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <i class="fa fa-bars" aria-hidden="true"></i> </button>
+			    	<div class="dropdown-menu">
+				      <a class="dropdown-item" href="#">Action</a>
+				      <a class="dropdown-item" href="#">Another action</a>
+				      <a class="dropdown-item" href="#">Something else here</a>
+			      	<div role="separator" class="dropdown-divider"></div>
+			      	<a class="dropdown-item" href="#">Separated link</a>
+			    </div>
+			  </div>
+			  <button class="btn btn-primary rounded-right">
+			  	<img src="./assests/search-icon.svg">
+			  Search Now</button>
+			</div>
+			<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		</div>
+		<div class="cards">
+			 <a href="index.html#gemstone" class="card">
+			 	<img src="./assests/gem.svg">
+			 	<p>Gemstone</p>
+			 </a>
+			 <a href="index.html#product" class="card">
+			 	<img src="./assests/product.svg">
+			 	<p>Products</p>
+			 </a>
+			 <a href="add.html" class="card">
+			 	<img src="./assests/ring.svg">
+			 	<p>Shop</p>
+			 </a>
+			 <a href="event.html" class="card">
+			 	<img src="./assests/star.svg">
+			 	<p>Events</p>
+			 </a>
+		</div>
+		
+
+
+
+		 <div><h2 class="countdown-tittle">Up Comming Event</h2></div>
+		<div class="countdown">
+
+
+   			<p id="demo"></p>
+   			
+
+   			<script>
+   			// Set the date we're counting down to
+   			var countDownDate = new Date("Feb 01, 2022 15:37:25").getTime();
+
+   			// Update the count down every 1 second
+   			var x = setInterval(function() {
+
+   			  // Get today's date and time
+   			  var now = new Date().getTime();
+    
+    			 // Find the distance between now and the count down date
+   			  var distance = countDownDate - now;
+    
+    			 // Time calculations for days, hours, minutes and seconds
+    			 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    			 var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    			 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    			 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+    			 // Output the result in an element with id="demo"
+    			 document.getElementById("demo").innerHTML = days + "d : " + hours + "h : "
+    			 + minutes + "m : " + seconds+"s";
+    
+    			 // If the count down is over, write some text 
+    			 if (distance < 0) {
+    			   clearInterval(x);
+    			   document.getElementById("demo").innerHTML = "EXPIRED";
+    			 }
+   			}, 1000);
+				</script>
+			</div>
+
+				<div class="top-event-cards">
+					
+					<h3>Sheffield Jewellery Classes </h3><br>
+					<img src="./assests/top-event.svg"> <br>
+					<p>Total beginners welcome! Student led content gives you the chance to learn what you want, at your own pace. Led by Emmie of Emily Alice Jewellery, Emmie has over 15 years experience in teaching art and jewellery making to a broad group of students. <br><br>
+
+					Come and join one our classes at the jewellery business studio. We have the tools and the experience, you’ll go home thrilled and wearing your new jewellery with pride! Small classes mean we are COVID secure and you get plenty of one to one time with your tutor.</p>
+	    		<a href=""><button class="read-btn">Read Article</button></a>
+		    </div>
+
+		    <div class="signup-event">
+					<div class="event-img">
+						<img src="./assests/event-img.svg">
+					</div>
+					<div class="event-form">
+						<form action="/action_page.php">
+  						<div class="form-container">
+    						<h3>Sign Up For The Event</h3>
+
+    						
+    						<input type="text" placeholder="Enter Your Name" name="name" required>
+    						<input type="text" placeholder="Enter Your Email" name="email" required>
+    						<input type="text" placeholder="Enter Contact Number" name="contactno" required>
+    						<input type="text" placeholder="Enter Address" name="address" required>
+    
+    						<label>
+      						<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px;"> Remember me
+    						</label>
+
+    						<div class="clearfix">
+      							
+      							<a href=""><button type="submit" class="signupbtn">Sign Up</button></a>
+    						</div>
+  						</div>
+						</form>
+
+					</div>
+					
+		    </div>
+
+		    <div class="event-cards">
+					<button>oct <b>13</b></button>
+  				<h3>Luxembourg Mineral Expo Luxembourg</h3>
+  				<p>Fair for lovers of minerals, mineral salts, jewelry, fossils and meteorites</p>
+					
+		    </div>
+		    <div class="event-cards">
+					<button>nov <b>02</b></button>
+  				<h3>Jewelery Exhibition</h3>
+  				<p>Exhibition of jewelery, precious stones and semi-precious stones</p>
+					
+		    </div>
+		    <div class="event-cards">
+					<button>nov <b>27</b></button>
+  				<h3>madridjoya</h3>
+  				<p>International Exhibition of Jewelry, Silverware, Watches and Allied</p>
+					
+		    </div>
+		  
+
+
+    <!-- slider of Famous Speakers -->
+		<h2 class="title">Famous Speakers</h2>
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				<div id="carousel-slider" class="owl-carousel">
+					
+					<div class="carousel">
+						<div class="pic">
+						  <img src="assests/speaker-img1.svg">
+						</div>
+						<div class="row">
+							<h3 class="title">Full-Day Jewellery Course</h3>
+							<p>Full day classes can be booked for groups up to five or parties of 2 or more</p>
+							<div class="rates">
+								<p><img src="assests/rating-stars.svg">&nbsp;&nbsp;&nbsp;&nbsp;<sub>4.9 reviews</sub></p>
+							</div>
+							<div class="speaker">
+								<img src="assests/speaker1.svg"><p>Angelina_Parker</p>
+							</div>
+							<div class="row1">
+								<button type="button">Enroll</button>
+								<p><a href="">More_Details</a></p>
+							</div>
+						</div>
+					  </div>
+		
+				  <div class="carousel">
+						<div class="pic">
+						  <img src="assests/speaker-img2.svg">
+						</div>
+						<div class="row">
+							<h3 class="title">Wax-carving Class</h3>
+							<p>Full day classes can be booked for groups up to five or parties of 2 or more</p>
+							<div class="rates">
+								<p><img src="assests/rating-stars.svg">&nbsp;&nbsp;&nbsp;&nbsp;<sub>4.9 reviews</sub></p>
+							</div>
+							<div class="speaker">
+								<img src="assests/speaker2.svg"><p>Rachel_Green</p>
+							</div>
+							<div class="row1">
+								<button type="button">Enroll</button>
+								<p><a href="">More_Details</a></p>
+							</div>
+						</div>
+					  </div>
+
+				 <div class="carousel">
+						<div class="pic">
+						  <img src="assests/speaker-img1.svg">
+						</div>
+						<div class="row">
+							<h3 class="title">Full-Day Jewellery Course</h3>
+							<p>Full day classes can be booked for groups up to five or parties of 2 or more</p>
+							<div class="rates">
+								<p><img src="assests/rating-stars.svg">&nbsp;&nbsp;&nbsp;&nbsp;<sub>4.9 reviews</sub></p>
+							</div>
+							<div class="speaker">
+								<img src="assests/speaker1.svg"><p>Angelina_Parker</p>
+							</div>
+							<div class="row1">
+								<button type="button">Enroll</button>
+								<p><a href="">More_Details</a></p>
+							</div>
+						</div>
+					  </div>
+
+				<div class="carousel">
+						<div class="pic">
+						  <img src="assests/speaker-img2.svg">
+						</div>
+						<div class="row">
+							<h3 class="title">Wax-carving Class</h3>
+							<p>Full day classes can be booked for groups up to five or parties of 2 or more</p>
+							<div class="rates">
+								<p><img src="assests/rating-stars.svg">&nbsp;&nbsp;&nbsp;&nbsp;<sub>4.9 reviews</sub></p>
+							</div>
+							<div class="speaker">
+								<img src="assests/speaker2.svg"><p>Rachel_Green</p>
+							</div>
+							<div class="row1">
+								<button type="button">Enroll</button>
+								<p><a href="">More_Details</a></p>
+							</div>
+						</div>
+					  </div>
+				  
+				</div>
+			  </div>
+			</div>
+		</div>
+
+		
+	<!-- The dots/circles -->
+	<div class="dots-container">
+	  <span class="dots" onclick="currentSlide(1)"></span>
+	  <span class="dots" onclick="currentSlide(2)"></span>
+	  <span class="dots" onclick="currentSlide(3)"></span>
+	  <span class="dots" onclick="currentSlide(4)"></span>
+	  <span class="dots" onclick="currentSlide(5)"></span>
+	</div>
+  </div>
+
+	
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function() {
+      $("#carousel-slider").owlCarousel({
+        items: 2,
+        itemsDesktop: [1000, 2],
+        itemsDesktopSmall: [990, 2],
+        itemsTablet: [768, 1],
+        pagination: true,
+        navigation: false,
+        navigationText: ["", ""],
+        slideSpeed: 1000,
+        autoPlay: true
+      });
+    });
+  </script>
+	<script type="text/javascript" src="./js/home.js"></script>
+</body>
+</html>
