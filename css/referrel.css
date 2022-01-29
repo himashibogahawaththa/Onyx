@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Roboto Mono;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5% !important;
+  }
+  nav{
+    height: 80px;
+    width: 100%;
+  }
+  
+  nav ul{
+    float: right;
+    margin: 0 !important;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+  }
+  nav ul li a{
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    color: black !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #000;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  .post-ad-btn{
+    margin: auto 0;
+  }
+  
+  .post-ad-btn button{
+    font-family: Roboto Mono;
+    background-color: transparent;
+    border:none;
+    color: #43D195;
+    font-size: 15px;
+    line-height: 16px;
+    border: 2px solid #2FC194;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 25px;
+  }
+  
+  .post-ad-btn button:hover{
+    color: #000;
+    border: 2px solid #000;
+  }
+.coupon {
+    border: 5px dotted #43D195; /* Dotted border */
+    width: 80%;
+    border-radius: 15px; /* Rounded border */
+    margin: 0 auto; /* Center the coupon */
+    max-width: 600px;
+    background-image:url(assests/faq_bg.svg);
+    background-repeat:repeat;
+	background-attachment:fixed;
+   
+    
+  }
+  
+  .container {
+    padding: 2px 16px;
+
+    background-image:url(assests/faq_bg.svg);
+    background-repeat:repeat;
+	background-attachment:fixed;
+   
+    
+  }
+  
+  .promo {
+    background: #43D195;
+    padding: 3px;
+  }
+  
+  .expire {
+    color: red;
+  }

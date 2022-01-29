@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+ 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Roboto Mono;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 5% !important;
+  }
+  nav {
+    height: 80px;
+    width: 100%;
+  }
+  
+  nav ul {
+    float: right;
+    margin: 0 !important;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+  }
+  nav ul li a {
+    color: black;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+  }
+  a.active,
+  a:hover {
+    color: black !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid #000;
+  }
+  .checkbtn {
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  
+  .post-ad-btn {
+    margin: auto 0;
+  }
+  
+  .post-ad-btn button {
+    font-family: Roboto Mono;
+    background-color: transparent;
+    border: none;
+    color: #43d195;
+    font-size: 15px;
+    line-height: 16px;
+    border: 2px solid #2fc194;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px 25px;
+  }
+  
+  .post-ad-btn button:hover {
+    color: #000;
+    border: 2px solid #000;
+  }
+
+
+
+
+#spread {
+    background: radial-gradient(
+      50% 50% at 15.23% 30.11%,
+      rgba(47, 193, 148, 0.2294) 0%,
+      rgba(47, 193, 148, 0) 99.99%,
+      rgba(47, 193, 148, 0) 100%
+    );
+  }
+  
+.drag-area{
+  border: 2px dashed rgb(36, 34, 34);
+  height: 30%;
+  width: 90%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  justify-content: center;
+  flex-direction: column;
+}
+.drag-area.active{
+  border: 3px solid rgb(126, 82, 196);
+}
+.drag-area .icon{
+  font-size: 100px;
+  color: rgba(0, 219, 84, 0.767);
+}
+.drag-area header{
+  font-size: 30px;
+  font-weight: 500;
+  color: #fff;
+}
+.drag-area span{
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  margin: 10px 0 15px 0;
+}
+.drag-area button{
+  padding: 10px 25px;
+  
+  
+  
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: #5256ad;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drag-area img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.btn  button {
+    
+    border: 2px solid #2fc194;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #43d195;
+    margin-left: 1px;
+    
+  
+    height: 40px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  
+    left: 15%;
+    right: 40%;
+    top: 32.61%;
+    bottom: 32.61%;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.88);
+
+  }
+
+  .btn1  button {
+    border: 2px solid #2fc194;
+    
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #43d195;
+    margin-top: 5.9%;
+  
+    height: 40px;
+    width: 160px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  
+    left: 28%;
+    right: 15.79%;
+    top: 44%;
+    bottom: 32.61%;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.88);
+  }
+  .btn1 button {
+      margin-left: 30%;
+      height: 40px;
+      width: 160px;
+    border-radius: 5px;
+    border: 2px solid #2fc194;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.88);
+    
+  }
+
+  
+  
+  .btn button:hover {
+    color: #383535;
+    border: 2px solid #383535;
+  }
+  
+  .btn1 button:hover {
+    color: #383535;
+    border: 2px solid #383535;
+  }
+
+ 
+  }
+  .btn2 button {
+    
+    height: 46px;
+    
+    width: 171px;
+    border-radius: 5px;
+    border: 2px solid #3a4240;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: #d8e2de;
+   
+  }
+  .btn2  button {
+    margin-left: 44%;
+    margin-bottom: 0%;
+    border: 2px solid #343b39;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #3a423f;
+    
+  
+    height: 35px;
+    width: 171px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+  
+    left: 45%;
+  
+    top: 94.5%;
+    bottom: 2%;
+  
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.88);
+  }
+  
+  .btn2 button:hover {
+    color: #00f8ae;
+    border: 2px solid #00f8ae;
+  }
+  .btn2 button:hover {
+    color: #00f8ae;
+}
+body {
+    color: #333;
+    font: 16px/1 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .list-numbered {
+    list-style: none;
+    margin-left: 1em;
+    counter-reset: line;
+    
+  }
+  
+  .list-numbered > li {
+    position: relative;
+    margin-bottom: 1.5em;
+  }
+  
+  .list-numbered > li:before {
+      position: absolute;
+      left: -2.25em;
+      display: inline-block;
+    width: 22px;
+      height: 22px;
+      margin-right: 0.5em;
+    background-color: #43d195;
+      border-radius: 50%;
+      color: #fff;
+      text-align:center;
+    line-height: 1.25em;
+      counter-increment: line;
+      content: counter(line);
+  }
+  .solid {
+    border-style: none solid none none;
+    margin: 10px;
+    padding: 10px;
+    right: 77%;
+    position: absolute;
+    padding-left: %;
+}
+
+.Descript{
+    padding-left: 6%;
+
+
+}

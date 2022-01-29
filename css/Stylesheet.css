@@ -1,0 +1,59 @@
+/*=========================================================Navbar================================================*/
+
+.navbar {
+	display: flex;
+}
+
+.navbar ul{
+	display: flex;
+	list-style-type: none;
+	padding: 5;
+	padding-top: 1.5%;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	margin-right: 50px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 16px;
+	color: #faf7f7;
+	padding-bottom: 5px;
+}
+
+.navbar ul li a:hover{
+	border-bottom: 1px solid #faf7f7;
+}
+
+
+/*=========================================================Contact us ======================================*/	
+#form{
+	margin-top:100px;
+}
+#mainform{
+	background-color:#fff;
+	border:px solid #43D195;
+	padding:20px;
+	height:auto;
+	opacity:.7;
+	animation-name:form;
+	animation-duration:1s;
+	transition:ease-in-out .3s;}
+@keyframes form{
+	0%{ opacity:0;}
+	100%{}
+}
+
+#mainform:hover{
+	box-shadow:0 0 20px  #43D195D4;
+	;
+	opacity:1;
+	}
+
+#btn{
+	width:100%;
+	color: rgb(255, 255, 255);
+	background-color: #43D195;
+	border-color: rgb(15, 238, 7);
+}

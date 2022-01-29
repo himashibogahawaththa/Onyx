@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap");
+
+
+
+#container {
+  width: 1350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  border-radius: 10px;
+  padding: 20px;
+  background: #2f3542;
+  box-shadow: #43D195;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 50px;
+  border: #43D195 2px outset;
+  padding: 10px;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+#design {
+  border: 3px solid #43D195;
+  margin: 50px;
+  text-align: center;
+  position: relative;
+  color: #000000;
+  padding: 20px;
+}
+
+span {
+  background: #43D195;
+  font-size: 30px;
+  position: relative;
+  padding: 0 10px;
+ 
+}
+
+p {
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.corner {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 3px solid #ced6e0;
+  transform: rotate(-45deg);
+  position: absolute;
+  background: #43D195;
+}
+
+#left_top {
+  top: -21px;
+  left: -21px;
+  border-color: transparent transparent #57606f transparent;
+}
+
+#right_top {
+  top: -21px;
+  right: -21px;
+  border-color: transparent transparent transparent #57606f;
+}
+
+#left_bottom {
+  bottom: -21px;
+  left: -21px;
+  border-color: transparent #57606f transparent transparent;
+}
+
+#right_bottom {
+  bottom: -21px;
+  right: -21px;
+  border-color: #57606f transparent transparent transparent;
+}
+
+
